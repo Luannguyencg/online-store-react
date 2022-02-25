@@ -13,7 +13,7 @@ function Category() {
                     <Link to="/me/store" className="category-item__link">Quản lý cửa hàng</Link>
                 </li>
                 <li className="category-item">
-                    <Link to="/me/store" className="category-item__link">Thêm sản phẩm</Link>
+                    <Link to="/creatProduct" className="category-item__link">Thêm sản phẩm</Link>
                 </li>
                 <li className="category-item">
                     <a href="#" className="category-item__link">Trang điểm mặt</a>

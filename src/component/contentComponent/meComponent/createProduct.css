@@ -19,6 +19,8 @@
     background-position: top center;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
 }
 .input-box{
     display: flex;

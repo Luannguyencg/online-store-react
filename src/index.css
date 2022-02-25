@@ -809,8 +809,8 @@ code {
   cursor: pointer;
 }
 .header__cart-no-cart-img{
-  width:60%;
-  display:none;
+  width:100%;
+  
 }
 .header__cart-img-sub{
   font-size:1.4rem;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 function Category() {
     return (
         
@@ -10,10 +10,10 @@ function Category() {
             </h3>
             <ul className="categoty-list">
                 <li className="category-item category-item--active">
-                    <a href="#" className="category-item__link">Trang điểm mặt</a>
+                    <Link to="/me/store" className="category-item__link">Quản lý cửa hàng</Link>
                 </li>
                 <li className="category-item">
-                    <a href="#" className="category-item__link">Trang điểm mặt</a>
+                    <Link to="/me/store" className="category-item__link">Thêm sản phẩm</Link>
                 </li>
                 <li className="category-item">
                     <a href="#" className="category-item__link">Trang điểm mặt</a>

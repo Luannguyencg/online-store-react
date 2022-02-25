@@ -62,11 +62,17 @@ function HeaderWithSeach() {
                     
                     <FaShoppingCart  className="header__cart-icon" />
                     <div className="header__cart-list ">
-                        <img src={photoTest} alt="" className="header__cart-no-cart-img"/>
-                        <p className="header__cart-img-sub">Chưa có sản phẩm.</p>
+                        
+                         
                         
                         <h4 className="header__cart-heading">Sản phẩm đã thêm</h4>
                         <ul className="header__cart-list-item">
+                            {productCartList.length < 1 ? 
+                            <>
+                                <img src={photoTest} alt="" className="header__cart-no-cart-img"/>
+                                <p className="header__cart-img-sub">Chưa có sản phẩm.</p>
+                                <Link to="/" className="keep-shopping-btn btn">Tiếp tục mua sắm</Link>
+                            </>: undefined }
                             {/* map cartlist */}
                             {productCartList.map((productCartItem, index) =>(
 

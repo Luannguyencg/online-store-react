@@ -1,0 +1,233 @@
+/* me category */
+.me-category{
+    display: block;
+    flex-shrink: 0;
+    width: 180px;
+}
+.me-category__user{
+    display: flex;
+    padding: 24px 0;
+    border-bottom: 1px solid #efefef;
+
+}
+.me-category__user-avata{
+    width: 50px;
+    height: 50px;
+       
+}
+.me-category__user-avata:hover{
+    cursor:pointer;
+}
+.category-avata{
+    padding-top: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.input-avata{
+    display:none;
+}
+.me-category__user-name{
+   margin-left: 5px;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+}
+.category-name{
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    min-height: 1rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+    
+}
+.me-category__update-profile{
+    color: #888;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+.me-category__update-profile:hover{
+    cursor: pointer;
+}
+
+.me-category__list{
+    list-style: none;
+    padding:0;
+    margin: 26px 0 0;
+}
+.me-category__item{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.me-category__item-link{
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+}
+.me-category__item-box{
+    display: flex;
+    align-items: center;
+}
+.me-category__item-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.me-category__item-icon img{
+    width: 100%;
+    height: 100%;
+}
+.me-category__item-name{
+    line-height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+.profile{
+    padding: 0 30px 10px;
+    background-color: var(--white-color);
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 5px 5px rgb(214, 210, 210);;
+}
+.profile__header{
+    padding: 18px 0;
+    border-bottom: 1px solid #efefef;
+}
+.profile__header-heading{
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin: 0;
+
+}
+.profile__header-sub{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin: 3px 0 0; 
+    color: #555;
+}
+.profile__content{
+    padding-top: 30px;
+    align-items: center;
+
+}
+.profile__content-info{
+    padding-right: 50px;
+}
+.profile__item{
+    display: flex;
+    align-items:center;
+    margin-bottom: 30px;
+}
+.profile__item > input{
+    padding: 10px;
+}
+.profile__item-type{
+    width: 30%;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-transform: capitalize;
+
+}
+.profile__item-text{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    width: 70%;
+}
+
+.profile__item-box{
+    display: flex;
+    justify-content:space-around;
+    width: 70%;
+}
+.profile__item-gender{
+    display: flex;
+    align-items:center;
+}
+.profile__item-input{
+    margin: 0 0 0 4px;
+
+}
+.profile__btn{
+    margin:0 0 60px 30px;
+    
+}
+.profile__avata{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.profile__avata-img{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.profile__label-btn{
+    font-size: 1.4rem;
+    color: #555;
+    border: 1px solid rgba(0,0,0,.09);
+    background-color: #fff;
+    height: 40px;
+    padding: 0 20px;
+    min-width: 70px;
+    max-width: 220px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+/* store manager */
+.store-heading{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.store-heading__name{
+    color: var(--primary-color)
+}
+
+.table{
+    width: 100%;
+    word-wrap: break-word;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+.table , th, td {
+    border: 1px solid var(--primary-color);
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+}
+th{
+    height: 50px;
+    font-size: 1.6rem;
+}
+.table tr:nth-child(odd){
+    background-color:#eeeeee;
+}
+.table tr:nth-child(even){
+    background-color:white;
+}
+.delete-btn, .update-btn {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-color);
+    border-collapse: separate;
+    background-color: #ffd840f0;
+    font-weight: 500;
+    padding: 0;
+    cursor: pointer;
+}
+
